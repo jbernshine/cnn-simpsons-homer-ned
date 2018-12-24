@@ -1,0 +1,17 @@
+python training.py:
+
+Train on 2617 samples, validate on 291 samples
+Epoch 1/4
+2617/2617 [==============================] - 74s 28ms/step - loss: 0.6388 - acc: 0.6225 - val_loss: 0.5337 - val_acc: 0.7285
+Epoch 2/4
+2617/2617 [==============================] - 75s 29ms/step - loss: 0.5309 - acc: 0.7398 - val_loss: 0.4633 - val_acc: 0.7869
+Epoch 3/4
+2617/2617 [==============================] - 73s 28ms/step - loss: 0.4707 - acc: 0.7784 - val_loss: 0.4776 - val_acc: 0.7938
+Epoch 4/4
+2617/2617 [==============================] - 73s 28ms/step - loss: 0.4174 - acc: 0.8208 - val_loss: 0.4039 - val_acc: 0.8179
+
+python testing.py:
+
+homer :  Number Tested:  50  Successful predictions:  49  Percent Success:  0.98
+ned :  Number Tested:  49  Successful predictions:  3  Percent Success:  0.061224489795918366
+Total Number Tested:  99  Total successful predictions:  52  Total percent Success:  0.5252525252525253
